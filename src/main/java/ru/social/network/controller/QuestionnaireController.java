@@ -24,7 +24,7 @@ public class QuestionnaireController {
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.CREATED)
-    public QuestionnaireDto addUser(@RequestBody QuestionnaireDto questionnaire) {
+    public QuestionnaireDto addQuestionnaire(@RequestBody QuestionnaireDto questionnaire) {
         return questionnaireService.addQuestionnaire(questionnaire);
     }
 

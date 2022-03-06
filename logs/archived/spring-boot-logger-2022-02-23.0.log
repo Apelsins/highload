@@ -1,0 +1,67 @@
+2022-02-23 21:21:50,525 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-23 21:21:50,541 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetworkApplication using Java 11.0.11 on atarasevich-nb with PID 11872 (C:\Projects\otus\network\target\classes started by ATarasevich in C:\Projects\otus\network)
+2022-02-23 21:21:50,541 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-23 21:21:51,728 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-23 21:21:51,728 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-02-23 21:21:51,775 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface ru.social.network.repository.QuestionnaireRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-02-23 21:21:51,775 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 35 ms. Found 0 JDBC repository interfaces.
+2022-02-23 21:21:51,791 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-23 21:21:51,791 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-23 21:21:51,829 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2022-02-23 21:21:52,914 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8088 (http)
+2022-02-23 21:21:52,930 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-23 21:21:52,930 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-02-23 21:21:52,930 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-23 21:21:53,046 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-02-23 21:21:53,046 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2435 ms
+2022-02-23 21:21:53,193 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-02-23 21:21:53,416 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-02-23 21:21:53,431 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-02-23 21:21:53,632 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-23 21:21:53,732 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-02-23 21:21:53,980 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-23 21:21:54,180 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-23 21:21:55,051 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-23 21:21:55,051 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-23 21:21:55,484 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-23 21:21:56,123 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-23 21:21:56,139 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8088"]
+2022-02-23 21:21:56,170 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8088 (http) with context path ''
+2022-02-23 21:21:56,185 INFO org.springframework.boot.StartupInfoLogger [main] Started NetworkApplication in 6.466 seconds (JVM running for 7.566)
+2022-02-23 21:24:18,506 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8088-exec-6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-23 21:24:18,506 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-6] Initializing Servlet 'dispatcherServlet'
+2022-02-23 21:24:18,512 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-6] Completed initialization in 5 ms
+2022-02-23 21:50:05,325 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-02-23 21:50:05,348 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetworkApplication using Java 11.0.11 on atarasevich-nb with PID 11824 (C:\Projects\otus\network\target\classes started by ATarasevich in C:\Projects\otus\network)
+2022-02-23 21:50:05,348 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-23 21:50:06,565 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-23 21:50:06,565 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-02-23 21:50:06,633 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface ru.social.network.repository.QuestionnaireRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-02-23 21:50:06,633 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 57 ms. Found 0 JDBC repository interfaces.
+2022-02-23 21:50:06,633 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-23 21:50:06,633 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-23 21:50:06,681 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2022-02-23 21:50:07,815 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8088 (http)
+2022-02-23 21:50:07,815 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-23 21:50:07,815 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-02-23 21:50:07,815 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-23 21:50:07,953 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-02-23 21:50:07,953 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2559 ms
+2022-02-23 21:50:08,169 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-02-23 21:50:08,385 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-02-23 21:50:08,416 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-02-23 21:50:08,634 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-23 21:50:08,734 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-02-23 21:50:09,034 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-23 21:50:09,202 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-23 21:50:10,103 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-23 21:50:10,119 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-23 21:50:10,704 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-23 21:50:11,574 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-23 21:50:11,621 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8088"]
+2022-02-23 21:50:11,659 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8088 (http) with context path ''
+2022-02-23 21:50:11,674 INFO org.springframework.boot.StartupInfoLogger [main] Started NetworkApplication in 7.197 seconds (JVM running for 8.381)
+2022-02-23 21:50:44,360 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8088-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-23 21:50:44,360 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-02-23 21:50:44,362 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-1] Completed initialization in 1 ms
+2022-02-23 21:50:44,520 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8088-exec-2] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `ru.social.network.constants.Gender` from String "Male": not one of the values accepted for Enum class: [FEMALE, MALE]; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `ru.social.network.constants.Gender` from String "Male": not one of the values accepted for Enum class: [FEMALE, MALE]<EOL> at [Source: (PushbackInputStream); line: 1, column: 91] (through reference chain: ru.social.network.service.dto.QuestionnaireDto["gender"])]

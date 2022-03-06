@@ -1,0 +1,1 @@
+INSERT INTO interest (id, name) VALUES (1, 'codding');

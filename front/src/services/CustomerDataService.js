@@ -10,7 +10,7 @@ class CustomerDataService {
     }
 
     create(data) {
-        return http.post('/customers', data)
+        return http.post('/questionnaire', data)
     }
 
     update(id, data) {
